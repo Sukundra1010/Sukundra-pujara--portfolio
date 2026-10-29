@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#061323"><meta name="description" content="Python Learning Hub by Sukundra Pujara. Beginner-friendly Python lessons, theory, OOP practice, and quizzes."><title>Python Learning Hub by Sukundra Pujara</title><link rel="stylesheet" href="static/css/style.css"><link rel="stylesheet" href="static/css/pages.css"><link rel="stylesheet" href="static/css/text-scale.css"><script src="static/js/python-lessons.js" defer></script><script src="static/js/practice-topics.js" defer></script><script src="static/js/python-theory.js" defer></script><script src="static/js/main.js" defer></script><script src="static/js/script.js" defer></script></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="code-mark">&lt;/&gt;</span> Sukundra <b>Pujara</b></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="projects.html">Projects</a><a href="index.html#education">Education</a><a href="notes.html">Notes</a><a href="contact.html">Contact</a></nav><button class="button button-outline theme-toggle" type="button" aria-label="Switch to light mode">☀ Light</button><a class="button button-outline admin-link" href="admin.html">Admin</a></header>
+<main>
+  <section class="content-section section-wrap python-notes-page">
+    <div class="python-heading">
+      <div><span class="eyebrow">PYTHON LEARNING PATH</span><h1>Python Learning Hub <span>by Sukundra Pujara</span></h1><p>Learn Python step by step with Sukundra Pujara. Start with simple ideas, read clear examples, and practice at your own pace.</p></div>
+    </div>
+    <nav class="level-jump-links" aria-label="Jump to a curriculum level">
+      <button class="lesson-level-link" type="button" data-level="Level 1 · Python Basics">1 · Basics</button>
+      <button class="lesson-level-link" type="button" data-level="Level 2 · Control Flow">2 · Control Flow</button>
+      <button class="lesson-level-link" type="button" data-level="Level 3 · Data Structures">3 · Data Structures</button>
+      <button class="lesson-level-link" type="button" data-level="Level 4 · Functions">4 · Functions</button>
+      <button class="lesson-level-link" type="button" data-level="Level 5 · Intermediate Python">5 · Intermediate</button>
+      <button class="lesson-level-link" type="button" data-level="Level 6 · Advanced Python">6 · Advanced</button>
+      <button class="lesson-level-link" type="button" data-level="Level 7 · Databases and Development">7 · Databases</button>
+      <button class="lesson-level-link" type="button" data-level="Level 8 · Python Projects">8 · Projects</button>
+    </nav>
+    <aside class="resource-callout"><div><strong>Practice Python Coding on AlgoCademy</strong><p>Use this extra practice resource alongside the original lessons on this page.</p></div><a class="button button-outline" href="https://algocademy.com/link/" target="_blank" rel="noopener noreferrer">Open AlgoCademy ↗</a></aside>
+    <aside class="resource-callout"><div><strong>Practice Python Coding on Programiz</strong><p>Write and run Python code online with the Programiz Python compiler.</p></div><a class="button button-outline" href="https://www.programiz.com/python-programming/online-compiler/" target="_blank" rel="noopener noreferrer">Open Programiz Compiler ↗</a></aside>
+    <aside class="resource-callout"><div><strong>More OOP practice</strong><p>Explore this separate Python OOP learning resource.</p></div><a class="button button-outline" href="https://oop.abishekbimali.com.np/" target="_blank" rel="noopener noreferrer">Visit OOP Notes ↗</a></aside>
+    <section class="progress-panel" aria-label="Learning progress">
+      <div class="progress-top"><div><strong>Your progress</strong><span id="progress-count">0 of 85 lessons completed</span></div><strong id="progress-percent">0%</strong></div>
+      <div class="progress-track" role="progressbar" aria-label="Lessons completed" aria-valuemin="0" aria-valuemax="85" aria-valuenow="0"><span id="progress-fill"></span></div>
+    </section>
+    <div class="notes-toolbar">
+      <label class="search-control"><span aria-hidden="true">⌕</span><input id="lesson-search" type="search" placeholder="Search Python topics..." autocomplete="off" aria-label="Search lessons by topic"></label>
+      <label class="filter-control">Category
+        <select id="category-filter" aria-label="Filter by category"><option value="all">All categories</option><option value="Beginner">Beginner</option><option value="Intermediate">Intermediate</option><option value="Advanced">Advanced</option></select>
+      </label>
+      <label class="filter-control">Curriculum level
+        <select id="level-filter" aria-label="Filter by curriculum level"><option value="all">All levels</option></select>
+      </label>
+      <button class="button button-outline" id="clear-filters" type="button">Clear filters</button>
+    </div>
+    <div class="lesson-summary"><p id="lesson-count" aria-live="polite"></p><div class="lesson-navigation"><button class="button button-outline" id="previous-lesson" type="button" disabled>← Previous lesson</button><button class="button button-outline" id="next-lesson" type="button">Next lesson →</button></div></div>
+    <p id="storage-warning" class="storage-warning" hidden>Browser storage is unavailable. You can read the lessons, but progress may not be saved.</p>
+    <div id="lesson-list" class="lesson-list" aria-live="polite"></div>
+    <section class="theory-section" id="python-theory">
+      <div class="section-heading practice-heading"><span class="section-icon">▤</span><div><h2>Python Theory <span>Questions &amp; Answers</span></h2><p>115 short theory questions for learning and revision, prepared for Sukundra Pujara.</p></div></div>
+      <label class="search-control theory-search"><span aria-hidden="true">⌕</span><input id="theory-search" type="search" placeholder="Search theory questions..." autocomplete="off" aria-label="Search Python theory"></label>
+      <div id="theory-list" class="theory-list"></div>
+      <p class="theory-count" id="theory-count" aria-live="polite"></p>
+    </section>
+    <section class="practice-section" id="topic-practice">
+      <div class="section-heading practice-heading"><span class="section-icon">✎</span><div><h2>Topic-wise <span>Practice</span></h2><p>Five beginner-friendly questions for each core topic, with hints and step-by-step answers.</p></div></div>
+      <div id="core-practice-list" class="practice-topic-list"></div>
+    </section>
+    <section class="practice-section" id="oop-practice">
+      <div class="section-heading practice-heading"><span class="section-icon">◈</span><div><h2>OOP Made <span>Easy</span></h2><p>Learn object-oriented programming with everyday examples and five exercises for each concept.</p></div></div>
+      <div id="oop-practice-list" class="practice-topic-list"></div>
+    </section>
+    <section class="quiz-panel" id="python-quiz">
+      <div class="section-heading practice-heading"><span class="section-icon">✓</span><div><h2>Quick Python <span>Quiz</span></h2><p>Answer the questions, submit the quiz, and track your best score in this browser.</p></div></div>
+      <p class="quiz-best" id="quiz-best-score">Best score: not taken yet</p>
+      <form id="quiz-form"></form>
+      <div class="quiz-actions"><button class="button button-primary" type="button" id="submit-quiz">Check my score</button><button class="button button-outline" type="button" id="retry-quiz" hidden>Try again</button><strong id="quiz-result" aria-live="polite"></strong></div>
+    </section>
+    <p class="curriculum-footnote">Progress is saved in this browser on this device. These self-contained notes use no external APIs.</p>
+  </section>
+</main>
+<footer class="footer"><div><strong>Sukundra <b>Pujara</b></strong><small>Computer Science with AI Student</small></div><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="projects.html">Projects</a><a href="notes.html">Notes</a><a href="contact.html">Contact</a></nav><div class="footer-contact"><a href="https://www.linkedin.com/in/sukundra-pujara-87006b43b/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Sukundra1010" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Made with <b>♥</b> in Nepal</span></div></footer>
+</body></html>

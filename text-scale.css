@@ -1,0 +1,102 @@
+body{font-size:20px!important}
+.brand{font-size:22px!important}
+.navigation a{font-size:17px!important}
+.button{font-size:17px!important}
+.eyebrow{font-size:16px!important}
+.hero h1{font-size:clamp(49px,6vw,60px)!important}
+.hero h2{font-size:clamp(19px,2.3vw,21px)!important}
+.hero-copy>p{font-size:19px!important}
+.social-links,.photo-note{font-size:17px!important}
+.photo-note small{font-size:15px!important}
+.section-heading h2{font-size:clamp(30px,4.1vw,34px)!important}
+.section-heading p{font-size:17px!important}
+.project-info h3{font-size:19px!important}
+.project-info p{font-size:16px!important}
+.tags span{font-size:13px!important}
+.button.small{font-size:14px!important}
+.skill-card h3,.note-card h3{font-size:20px!important}
+.skill-card p,.note-card p{font-size:17px!important}
+.footer strong{font-size:19px!important}
+.footer small{font-size:14px!important}
+.footer nav,.footer-contact{font-size:15px!important}
+.form-card label{font-size:17px!important}
+.setup-link{font-size:17px!important}
+.admin-section-title{font-size:26px!important}
+.admin-row p{font-size:17px!important}
+.admin-link{font-size:15px!important}
+.heading-action{font-size:14px!important}
+.form-help,.empty-state,.notice-box,.admin-list:empty:after{font-size:17px!important}
+.python-heading h1{font-size:clamp(36px,5.1vw,53px)!important}
+.progress-top>div span{font-size:16px!important}
+.progress-top>strong:last-child{font-size:26px!important}
+.lesson-level-link{font-size:16px!important}
+.resource-callout p{font-size:17px!important}
+.search-control,.filter-control{font-size:16px!important}
+.lesson-summary{font-size:17px!important}
+.lesson-meta{font-size:15px!important}
+.complete-control{font-size:15px!important}
+.lesson-body h3,.lesson-explanation,.lesson-tip,.challenge-question{font-size:17px!important}
+.curriculum-footnote{font-size:16px!important}
+.storage-warning{font-size:17px!important}
+.calculator-brand h1{font-size:clamp(30px,5.1vw,43px)!important}
+.calculator-history{font-size:17px!important}
+#calculator-display{font-size:clamp(36px,10.2vw,53px)!important}
+.calc-key{font-size:25px!important}
+.calculator-help{font-size:15px!important}
+.lesson-title{font-size:17px!important}
+.lesson-navigation .button{font-size:15px!important}
+.practice-prompt{font-size:17px!important}
+.practice-hint,.practice-io,.answer-explanation{font-size:16px!important}
+.quiz-best,.quiz-question legend,.quiz-choice{font-size:17px!important}
+.quiz-feedback{font-size:16px!important}
+.theme-toggle{font-size:15px!important}
+.certificate-info h3{font-size:22px!important}
+.certificate-info p{font-size:17px!important}
+.theory-item>summary,.theory-item>p,.lesson-rules{font-size:17px!important}
+.theory-count{font-size:16px!important}
+@media(max-width:1100px){
+  .site-header{height:64px;padding:0 24px;gap:12px}
+  .menu-toggle{display:block;margin-left:auto;margin-right:0;flex:0 0 auto}
+  .navigation{display:none;position:absolute;top:63px;left:0;right:0;height:auto;padding:12px 24px;background:#08192b;flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--line)}
+  .navigation.open{display:flex}
+  .navigation a{height:auto;min-height:48px;padding:10px 9px;border-bottom:1px solid #12283c}
+  .photo-note{display:none}
+  .portrait-wrap{overflow:clip}
+}
+@media(max-width:650px){
+  .site-header{height:64px;padding:0 14px;gap:8px}
+  .navigation{top:63px;padding:12px 16px}
+  .brand{font-size:18px!important}
+  .admin-link{padding:6px 9px}
+  .hero{gap:8px}
+  .hero h1{font-size:clamp(38px,11vw,49px)!important}
+  .hero h2{font-size:18px!important}
+  .hero-copy>p{font-size:17px!important}
+  .section-heading{align-items:flex-start;flex-wrap:wrap}
+  .heading-action{margin-left:40px}
+  .footer nav,.footer-contact{flex-wrap:wrap;justify-content:center}
+  .notes-toolbar{grid-template-columns:minmax(0,1fr)}
+  .search-control{grid-column:auto}
+  .lesson-card{grid-template-columns:minmax(0,1fr)}
+  .complete-control{padding:0 0 10px}
+  .lesson-card summary:after{right:28px}
+  .certificate-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:360px){
+  .site-header{padding:0 10px;gap:5px}
+  .brand{font-size:13px!important;flex:0 1 auto}
+  .code-mark{font-size:14px}
+  .site-header .theme-toggle{font-size:11px!important;padding:4px}
+  .site-header .admin-link{font-size:11px!important;padding:4px 5px}
+  .section-wrap{padding-left:14px;padding-right:14px}
+  .hero-actions .button{padding:8px 10px}
+  .footer{padding-left:12px;padding-right:12px}
+}
+@media(max-width:420px){
+  .site-header{padding-left:8px;padding-right:8px;gap:5px}
+  .brand{font-size:15px!important}
+  .code-mark{font-size:17px}
+  .menu-toggle{font-size:21px;margin-right:0}
+  .site-header .theme-toggle{min-width:0;padding:5px 6px;font-size:12px!important}
+  .site-header .admin-link{padding:5px 7px;font-size:12px!important}
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061323">
+  <meta name="description" content="Sukundra Advanced Calculator, a browser-based calculator built by Sukundra Pujara.">
+  <title>Sukundra Advanced Calculator | Sukundra Pujara</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/pages.css">
+  <link rel="stylesheet" href="static/css/text-scale.css">
+  <script src="static/js/main.js" defer></script>
+  <script src="static/js/calculator.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="code-mark">&lt;/&gt;</span> Sukundra <b>Pujara</b></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a><a href="projects.html">Projects</a>
+      <a href="index.html#education">Education</a><a href="notes.html">Notes</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="button button-outline admin-link" href="admin.html">Admin</a>
+  </header>
+  <main>
+    <section class="content-section section-wrap calculator-page">
+      <div class="calculator-brand"><img src="static/images/sukundra-advanced-calculator.png" alt="Sukundra Calc Pro logo"><h1>Sukundra Advanced <span>Calculator</span></h1><p>A simple calculator made with HTML, CSS, and JavaScript.</p></div>
+      <section class="calculator" aria-label="Calculator">
+        <div class="calculator-display" aria-live="polite">
+          <div class="calculator-history" id="calculator-history"></div>
+          <output id="calculator-display" aria-label="Display" aria-live="assertive">0</output>
+        </div>
+        <div class="calculator-keys">
+          <button type="button" class="calc-key calc-utility" data-action="clear">AC</button>
+          <button type="button" class="calc-key calc-utility" data-action="delete" aria-label="Delete last digit">DEL</button>
+          <button type="button" class="calc-key calc-utility" data-action="sign">+/−</button>
+          <button type="button" class="calc-key calc-operator" data-operator="/" aria-label="Divide">÷</button>
+          <button type="button" class="calc-key" data-digit="7">7</button>
+          <button type="button" class="calc-key" data-digit="8">8</button>
+          <button type="button" class="calc-key" data-digit="9">9</button>
+          <button type="button" class="calc-key calc-operator" data-operator="*" aria-label="Multiply">×</button>
+          <button type="button" class="calc-key" data-digit="4">4</button>
+          <button type="button" class="calc-key" data-digit="5">5</button>
+          <button type="button" class="calc-key" data-digit="6">6</button>
+          <button type="button" class="calc-key calc-operator" data-operator="-" aria-label="Subtract">−</button>
+          <button type="button" class="calc-key" data-digit="1">1</button>
+          <button type="button" class="calc-key" data-digit="2">2</button>
+          <button type="button" class="calc-key" data-digit="3">3</button>
+          <button type="button" class="calc-key calc-operator" data-operator="+" aria-label="Add">+</button>
+          <button type="button" class="calc-key calc-zero" data-digit="0">0</button>
+          <button type="button" class="calc-key" data-action="decimal">.</button>
+          <button type="button" class="calc-key calc-equals" data-action="equals" aria-label="Equals">=</button>
+        </div>
+        <p class="calculator-help">Use your keyboard too: numbers, + − * /, Enter, Backspace, and Escape.</p>
+      </section>
+      <a class="button button-outline calculator-back" href="projects.html">← Back to Projects</a>
+    </section>
+  </main>
+  <footer class="footer"><div><strong>Sukundra <b>Pujara</b></strong><small>Computer Science with AI Student</small></div><nav aria-label="Footer navigation"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#skills">Skills</a><a href="projects.html">Projects</a><a href="notes.html">Notes</a><a href="contact.html">Contact</a></nav><div class="footer-contact"><a href="https://www.linkedin.com/in/sukundra-pujara-87006b43b/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Sukundra1010" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Made with <b>♥</b> in Nepal</span></div></footer>
+</body>
+</html>
